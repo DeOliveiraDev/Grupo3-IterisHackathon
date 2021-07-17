@@ -8,8 +8,15 @@
 
       <template v-slot:extension>
         <v-tabs align-with-title>
+
+          <router-link to="/OngArea">
           <v-tab>ONG's</v-tab>
+          </router-link>
+
+          <router-link to="/">
           <v-tab>EMPRESAS</v-tab>
+          </router-link>
+
         </v-tabs>
       </template>
     </v-app-bar>
@@ -50,4 +57,7 @@ export default {
 </script>
 
 <style scoped>
+  a {
+    text-decoration: none;
+  }
 </style>

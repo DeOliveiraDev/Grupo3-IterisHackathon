@@ -3,21 +3,22 @@
 
     <AppBar/>
     <v-main>
-      <EmpresasArea/>
+      <router-view/>
     </v-main>
+    <AppFooter/>
   </v-app>
 </template>
 
 <script>
 import AppBar from './components/AppBar.vue';
-import EmpresasArea from './components/EmpresasArea.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   name: 'App',
 
   components: {
     AppBar,
-    EmpresasArea
+    AppFooter,
   },
 
   data: () => ({
