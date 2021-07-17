@@ -20,8 +20,8 @@
                       <v-expansion-panel-content>
                         <br>
                         <strong> Descrição: </strong>
-                        <v-divider></v-divider>
                         {{empresas.descricao}}
+                        <v-divider></v-divider>
                         <strong> Nome: </strong>
                         {{empresas.nome}} <br>
                         <v-divider></v-divider>

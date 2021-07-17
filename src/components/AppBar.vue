@@ -24,7 +24,7 @@
     <!-- SIDEBAR CONFIG -->
     <v-navigation-drawer v-model="drawer" height="100vh" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="dark">
+        <v-list-item-group v-model="group" active-class="teal lighten-1">
           <!-- SIDEBAR ITEM 1 -->
           <v-list-item>
             <v-list-item-icon>
