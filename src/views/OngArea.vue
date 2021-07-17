@@ -2,12 +2,12 @@
   <v-card max-width="400" class="mx-auto">
     <v-container>
       <v-row dense>
-        <v-col v-for="(empresas, i) in empresas" :key="i" cols="12">
+        <v-col v-for="(ongs, i) in ongs" :key="i" cols="12">
           <v-card color="white" dark>
             <div>
               <div class="d-flex justify-center">
                 <v-avatar class="mt-3 mb-3" height="auto" width="200" tile>
-                  <v-img :src="empresas.logo" class="mb-5 mt-3"></v-img>
+                  <v-img :src="ongs.logo" class="mb-5 mt-3"></v-img>
                 </v-avatar>
               </div>
               <!-- TESTE POP-UP-->
@@ -20,16 +20,18 @@
                       <v-expansion-panel-content>
                         <br>
                         <strong> Descrição: </strong>
-                        {{empresas.descricao}}
+                        {{ongs.descricao}}
                         <v-divider></v-divider>
                         <strong> Nome: </strong>
-                        {{empresas.nome}} <br>
+                        {{ongs.nome}} <br>
                         <v-divider></v-divider>
                         <strong> Endereço: </strong>
-                        {{empresas.endereco}} <br>
+                        {{ongs.endereco}} <br>
                         <v-divider></v-divider>
                         <strong> WebSite: </strong>
-                        {{empresas.site}}
+                        <v-btn class="ma-2" outlined color="teal lighten-1">
+                          <a :href="ongs.site">Visitar Webpage</a>
+                        </v-btn>
                       </v-expansion-panel-content>
                     </v-expansion-panel>
                   </v-expansion-panels>
@@ -48,19 +50,22 @@ export default {
   name: "EmpresasArea",
   data() {
     return {
-      empresas: [],
+      ongs: [],
     };
   },
   created() {
     fetch("https://it3-gdf-default-rtdb.firebaseio.com/alimentos/orgs.json")
       .then((resposta) => resposta.json())
       .then((json) => {
-        this.empresas = json;
-        console.log(this.empresas);
+        this.ongs = json;
+        console.log(this.ongs);
       });
   },
 };
 </script>
 
 <style scoped>
+ a {
+   text-decoration: none;
+ }
 </style>

@@ -26,7 +26,9 @@
                         {{empresas.endereco}} <br>
                         <v-divider></v-divider>
                         <strong> WebSite: </strong>
-                        {{empresas.site}}
+                        <v-btn class="ma-2" outlined color="teal lighten-1">
+                          <a :href="empresas.site">Visitar Webpage</a>
+                        </v-btn>
                       </v-expansion-panel-content>
                     </v-expansion-panel>
                   </v-expansion-panels>
@@ -60,4 +62,7 @@ export default {
 </script>
 
 <style scoped>
+  a {
+    text-decoration: none;
+  }
 </style>

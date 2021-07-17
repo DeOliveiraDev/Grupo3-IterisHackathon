@@ -4,7 +4,7 @@
       class="text-center"
       cols="12"
     >
-      {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+      Iteris ❤️ Hackathon — {{ new Date().getFullYear() }}
     </v-col>
   </v-footer>
 </template>

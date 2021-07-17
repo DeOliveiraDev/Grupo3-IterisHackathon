@@ -8,13 +8,12 @@
 
       <template v-slot:extension>
         <v-tabs align-with-title>
+          <router-link to="/">
+          <v-tab>EMPRESAS</v-tab>
+          </router-link>
 
           <router-link to="/OngArea">
           <v-tab>ONG's</v-tab>
-          </router-link>
-
-          <router-link to="/">
-          <v-tab>EMPRESAS</v-tab>
           </router-link>
 
         </v-tabs>
@@ -36,9 +35,9 @@
           <!-- SIDEBAR ITEM 2 -->
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-logout</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
+            <v-list-item-title>Logout</v-list-item-title>
           </v-list-item>
         </v-list-item-group>
       </v-list>
