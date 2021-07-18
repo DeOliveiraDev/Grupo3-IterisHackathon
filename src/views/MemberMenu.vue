@@ -22,6 +22,7 @@
       </v-card-actions>
     </v-card>
 
+    <!-- CARD LISTA DE ONG's -->
     <v-card class="mx-auto mt-3" max-width="344">
       <v-img
         src="https://dtpr0iglcwflm.cloudfront.net/profissoes/wp-content/uploads/2018/10/trabalho-voluntario-no-cv-scaled-1600x900.jpg"
