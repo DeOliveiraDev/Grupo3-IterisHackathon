@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import PaginaInicial from '../views/PaginaInicial.vue'
+import Login from '../views/Login.vue'
+import MemberMenu from '../views/MemberMenu.vue'
 import EmpresasArea from '../views/EmpresasArea.vue'
 import OngArea from '../views/OngArea.vue'
 import AreaFAQ from '../views/AreaFAQ.vue'
-import Login from '../views/Login.vue'
-import PaginaInicial from '../views/PaginaInicial.vue'
+
 
 Vue.use(VueRouter)
 
@@ -12,6 +14,16 @@ const routes = [{
         path: '/',
         name: 'PaginaInicial',
         component: PaginaInicial
+    },
+    {
+        path: '/Login',
+        name: 'Login',
+        component: Login
+    },
+    {
+        path: '/MemberMenu',
+        name: 'MemberMenu',
+        component: MemberMenu
     },
     {
         path: '/OngArea',
@@ -22,11 +34,6 @@ const routes = [{
         path: '/AreaFAQ',
         name: 'AreaFAQ',
         component: AreaFAQ
-    },
-    {
-        path: '/Login',
-        name: 'Login',
-        component: Login
     },
     {
         path: '/EmpresasArea',

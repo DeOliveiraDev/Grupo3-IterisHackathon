@@ -13,13 +13,14 @@
             <input type="password" placeholder="Senha">
             <br>
             <div classe="btn-login">
-                <botton>Login</botton>
+                <router-link to="MemberMenu">
+                    <button>Login</button>
+                </router-link>
             </div>
             
             <p> 
                 Você não tem conta?
                 <span/>
-                <router-link to="/registrar">Crie uma conta<router-link>
 
                 <a href="">Crie uma conta </a>
             </p>
@@ -49,4 +50,9 @@
 
 </template>
 
+<script>
+export default {
+    name: "PaginaInicial",
+}
+</script>
 

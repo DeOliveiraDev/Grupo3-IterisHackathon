@@ -5,19 +5,6 @@
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
       <v-toolbar-title>Conectamos!</v-toolbar-title>
       <v-spacer></v-spacer>
-
-      <template v-slot:extension>
-        <v-tabs align-with-title>
-          <router-link to="/">
-          <v-tab>EMPRESAS</v-tab>
-          </router-link>
-
-          <router-link to="/OngArea">
-          <v-tab>ONG's</v-tab>
-          </router-link>
-
-        </v-tabs>
-      </template>
     </v-app-bar>
 
     <!-- SIDEBAR CONFIG -->
@@ -25,12 +12,14 @@
       <v-list nav dense>
         <v-list-item-group v-model="group" active-class="teal lighten-1">
           <!-- SIDEBAR ITEM 1 -->
+          <router-link to="/">
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-account</v-icon>
+              <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Account</v-list-item-title>
+            <v-list-item-title>HOME</v-list-item-title>
           </v-list-item>
+          </router-link>
 
           <!-- SIDEBAR ITEM 2 -->
           <router-link to="/FAQ">
