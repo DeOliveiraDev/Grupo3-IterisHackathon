@@ -69,9 +69,11 @@
       </v-card-actions>
     </v-card>
     <!-- BOTÃO DE LOGOUT -->
+    <router-link to="/">
     <v-btn elevation="2" class="mt-3 mb-3 mr-3 float-right" color="red darken-4" dark>
       LOGOUT
     </v-btn>
+    </router-link>
   </v-card>
 </template>
 
