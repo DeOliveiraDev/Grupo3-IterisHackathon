@@ -51,10 +51,13 @@
         height="200px"
       ></v-img>
 
-      <v-card-title> Profissionais Cultura <br> e Saúde/Bem estar </v-card-title>
+      <v-card-title>
+        Profissionais Cultura <br />
+        e Saúde/Bem estar
+      </v-card-title>
 
       <v-card-subtitle>
-        Profissionais de Cultura e Saúde/Bem estar que precisam de trabalhos 
+        Profissionais de Cultura e Saúde/Bem estar que precisam de trabalhos
       </v-card-subtitle>
 
       <v-card-actions>
@@ -65,6 +68,12 @@
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
+    <!-- BOTÃO DE LOGOUT -->
+    <router-link to="/">
+    <v-btn elevation="2" class="mt-3 mb-3 mr-3 float-right" color="red darken-4" dark>
+      LOGOUT
+    </v-btn>
+    </router-link>
   </v-card>
 </template>
 

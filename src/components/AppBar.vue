@@ -3,6 +3,15 @@
     <!-- BARRA DE MENU -->
     <v-app-bar color="dark" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+
+      <v-img
+        class="mx-5"
+        src="../assets/Flor.png"
+        max-height="40"
+        max-width="40"
+        contain
+      ></v-img>
+
       <v-toolbar-title>Connect Ubuntu</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -11,7 +20,6 @@
     <v-navigation-drawer v-model="drawer" height="100vh" absolute temporary>
       <v-list nav dense>
         <v-list-item-group v-model="group" active-class="teal lighten-1">
-          
           <!-- SIDEBAR ITEM -->
           <router-link to="/AreaFAQ">
             <v-list-item>

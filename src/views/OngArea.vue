@@ -32,16 +32,18 @@
                       >
                       <v-expansion-panel-content>
                         <br />
-                        <strong> Descrição: </strong>
+                        <strong> DESCRIÇÃO: </strong>
                         {{ ongs.descricao }}
                         <v-divider></v-divider>
-                        <strong> Nome: </strong>
+                        <strong> NOME: </strong>
                         {{ ongs.nome }} <br />
                         <v-divider></v-divider>
-                        <strong> Endereço: </strong>
+                        <strong> ENDEREÇO: </strong>
                         {{ ongs.endereco }} <br />
                         <v-divider></v-divider>
-                        <strong> WebSite: </strong>
+                        <strong> CONTATO: </strong><br>
+                        (00) 9 0000-0000 <br>
+                        ongx@xmail.com
                         <v-btn class="ma-2" outlined color="teal lighten-1">
                           <a :href="ongs.site">Visitar Webpage</a>
                         </v-btn>
