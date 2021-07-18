@@ -27,18 +27,27 @@
           <!-- SIDEBAR ITEM 1 -->
           <v-list-item>
             <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
+              <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title>Account</v-list-item-title>
           </v-list-item>
 
           <!-- SIDEBAR ITEM 2 -->
+          <v-list-item>
+            <v-list-item-icon>
+              <v-icon>mdi-frequently-asked-questions</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>FAQ</v-list-item-title>
+          </v-list-item>
+          
+          <!-- SIDEBAR ITEM 3 -->
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-logout</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Logout</v-list-item-title>
           </v-list-item>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
