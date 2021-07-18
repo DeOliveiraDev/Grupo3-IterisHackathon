@@ -40,34 +40,42 @@
                <!--  Nossa historia -->
 
             <div class="Nossa Historia">
-                <h2> Nossa historia</h2>
-                <p>
-                Com o início da pandemia, em 2020,estamospassndo por um momento muito difícil, mas pode ser amenizado com boa dose de coragem, aliada a uma gestão competente.
-                mesmo com as dificuldades impostas pela crise,
-                Com o início da pandemia, em 2020, muitos setores se viram em meio à crise devido ao isolamento social e lockdown em todos os estados e cidades do Brasil. Sendo assim, os comércios teve de se reinventar e se adaptar ao novo normal proposto, afinal, os clientes mudaram suas prioridades e hábitos de consumo, focando principalmente na esfera da saúde e alimentação.
-                </p>
+                <h1> Nossa historia</h1>
 
+               <p>Desde o início da pandemia, em 2020, estamos passando por um momento muito difícil.</p>
+               <p>Acreditamos que as dificuldades podem ser amenizadas com solidariedade, união, trabalho, 
+                boa dose de coragem, aliada a uma gestão competente.</p>
+                <p>Mesmo com as dificuldades impostas pela crise muitos setores tem se renovado com 
+                novas formas de realizar suas atividades, além de surgirem novas parcerias.</p> 
+                <p>Dentre esses setores temos empresas,Ong's e profissionais da saúde, arte cultura e outras áreas.</p>
+                
+                <p>Para contribuir melhor desenvolvimento desse cenário surge a Connect, que visa conctar artista,
+                 profissionais de varias áreas, ong's e empresas.</p>
                     <!-- Missão,Visão e valores -->
 
-                <h1> Misão</h1>
-                <p>
-                “Consolidar a nossa atuação como entidade de referência no nosso segmento, sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a participação da sociedade organizada”.
-                </p>
-
-                <h1> Visão</h1>
-                <p>
-                “Consolidar a nossa atuação como entidade de referência no nosso segmento, 
-                sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a participação da sociedade organizada”.
-                </p>
-
                 
-                <h1> Valore</h1>
+                <h2> Missão</h2>
                 <p>
-                Atender seus assistidos com qualidade, eficácia e eficiência promovendo e minimizando sua condição de vulnerabilidade social.
+                 Realizando conexões, queremos combater a fome, o desemprego e outros problemas potencializados pela pandemia.
                 </p>
+
+                <h2> Visão</h2>
+                <p>“Consolidar a nossa atuação como entidade de referência no nosso segmento, 
+                sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a 
+                participação da sociedade organizada”.</p>
+            
+                
+                <h2> Valores</h2>
+                <p>Atender as pessoas, profissionais, empresas e ong's com qualidade, eficácia e eficiência de forma a promover 
+                  seus serviços e ações, minimizando vulnerabilidades sociais.</p>
+            
 
                     <!--O que nossa empresa oferece-->
-                <h1>O que nossa empresa oferece</h1>
+                
+                <h2>O que nossa empresa oferece</h2>
+
+                <p>Oferecemos uma plataforma que facilita a conexão entre os setores ja citados, poupando tempo e recursos.</p>
+                
            </div>
 
        
@@ -81,6 +89,7 @@
 </template>
 
 <script>
+
 export default {
     name: "PaginaInicial",
 }
