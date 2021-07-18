@@ -21,8 +21,10 @@
             <p> 
                 Você não tem conta?
                 <span/>
-
-                <a href="">Crie uma conta </a>
+                <router-link to="RegisterMenu">
+                    <button>Crie uma conta </button>
+                </router-link>
+                
             </p>
 
         </div>
@@ -49,7 +51,7 @@
                 novas formas de realizar suas atividades, além de surgirem novas parcerias.</p> 
                 <p>Dentre esses setores temos empresas,Ong's e profissionais da saúde, arte cultura e outras áreas.</p>
                 
-                <p>Para contribuir melhor desenvolvimento desse cenário surge a Connect, que visa conctar artista,
+                <p>Para contribuir melhor desenvolvimento desse cenário surge a Connect, que visa conectar artistas,
                  profissionais de varias áreas, ong's e empresas.</p>
                     <!-- Missão,Visão e valores -->
 
