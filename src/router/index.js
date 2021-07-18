@@ -7,7 +7,10 @@ import EmpresasArea from '../views/EmpresasArea.vue'
 import OngArea from '../views/OngArea.vue'
 import AreaFAQ from '../views/AreaFAQ.vue'
 import ProfissionaisArea from '../views/ProfissionaisArea.vue'
-
+import ProfissionaisCadastro from '../views/ProfissionaisCadastro.vue'
+import EmpresaCadastro from '../views/EmpresaCadastro.vue'
+import OngsCadastro from '../views/OngsCadastro.vue'
+import RegisterMenu from '../views/RegisterMenu.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +48,26 @@ const routes = [{
         path: '/ProfissionaisArea',
         name: 'ProfissionaisArea',
         component: ProfissionaisArea
+    },
+    {
+        path: '/EmpresaCadastro',
+        name: 'EmpresaCadastro',
+        component: EmpresaCadastro
+    },
+    {
+        path: '/OngsCadastro',
+        name: 'OngsCadastro',
+        component: OngsCadastro
+    },
+    {
+        path: '/ProfissionaisCadastro',
+        name: 'ProfissionaisCadastro',
+        component: ProfissionaisCadastro
+    },
+    {
+        path: '/RegisterMenu',
+        name: 'RegisterMenu',
+        component: RegisterMenu
     },
 ]
 
