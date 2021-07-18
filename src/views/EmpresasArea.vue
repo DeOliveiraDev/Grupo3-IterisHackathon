@@ -32,13 +32,15 @@
                       >
                       <v-expansion-panel-content>
                         <br />
-                        <strong> Nome: </strong>
+                        <strong> NOME: </strong>
                         {{ empresas.nome }} <br />
                         <v-divider></v-divider>
-                        <strong> Endereço: </strong>
+                        <strong> ENDEREÇO: </strong>
                         {{ empresas.endereco }} <br />
                         <v-divider></v-divider>
-                        <strong> WebSite: </strong>
+                        <strong> CONTATOS </strong><br>
+                        (00) 9 0000-0000<br>
+                        empresax@xmail.com
                         <v-btn class="ma-2" outlined color="teal lighten-1">
                           <a :href="empresas.site">Visitar Webpage</a>
                         </v-btn>

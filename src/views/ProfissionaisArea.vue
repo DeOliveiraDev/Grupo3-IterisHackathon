@@ -1,6 +1,14 @@
 <template>
   <v-card max-width="400" class="mx-auto">
     <v-container>
+      <div class="d-flex">
+        <router-link to="/MemberMenu">
+          <v-btn class="mx-3 mt-2" fab dark small color="teal lighten-1">
+            <v-icon> mdi-arrow-left </v-icon>
+          </v-btn>
+        </router-link>
+        <v-card-title>Lista de Profissionais</v-card-title>
+      </div>
       <v-row dense>
         <v-col v-for="(profissionais, i) in profissionais" :key="i" cols="12">
           <v-card color="white" dark>
@@ -16,22 +24,26 @@
                 <v-row justify="center">
                   <v-expansion-panels inset>
                     <v-expansion-panel>
-                      <v-expansion-panel-header color="teal lighten-1" dark class="">MAIS INFORMAÇÕES</v-expansion-panel-header>
+                      <v-expansion-panel-header
+                        color="teal lighten-1"
+                        dark
+                        class=""
+                        >MAIS INFORMAÇÕES</v-expansion-panel-header
+                      >
                       <v-expansion-panel-content>
-                        <br>
-                        <strong> Nome: </strong>
-                        {{profissionais.nome}} <br>
+                        <br />
+                        <strong> NOME: </strong>
+                        {{ profissionais.nome }} <br />
                         <v-divider></v-divider>
-                        <strong> Local: </strong>
-                        {{profissionais.local}} <br>
+                        <strong> LOCAL: </strong>
+                        {{ profissionais.local }} <br />
                         <v-divider></v-divider>
-                        <strong> Serviços: </strong>
-                        {{profissionais.servicos}} <br>
+                        <strong> SERVIÇOS: </strong>
+                        {{ profissionais.servicos }} <br />
                         <v-divider></v-divider>
-                        <strong> Contato: </strong>
-                        <v-btn class="ma-2" outlined color="teal lighten-1">
-                          <a :href="profissionais.site">Contato</a>
-                        </v-btn>
+                        <strong> CONTATO: </strong>
+                        (00) 9 0000-0000
+                        profissionalx@xgmail.com
                       </v-expansion-panel-content>
                     </v-expansion-panel>
                   </v-expansion-panels>
@@ -54,7 +66,9 @@ export default {
     };
   },
   created() {
-    fetch("https://it3-gdf-default-rtdb.firebaseio.com/saude/profissionais.json")
+    fetch(
+      "https://it3-gdf-default-rtdb.firebaseio.com/saude/profissionais.json"
+    )
       .then((resposta) => resposta.json())
       .then((json) => {
         this.profissionais = json;
@@ -65,7 +79,7 @@ export default {
 </script>
 
 <style scoped>
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 </style>
