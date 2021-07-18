@@ -43,6 +43,17 @@
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
+    <!-- LOGOUT BUTTON -->
+    <v-container>
+      <router-link to="/">
+        <v-btn color="red accent-2" dark block>
+          <v-icon> mdi-logout </v-icon>
+          LOGOUT
+        </v-btn>
+      </router-link>
+
+      <v-spacer></v-spacer>
+    </v-container>
   </v-card>
 </template>
 
@@ -55,4 +66,7 @@ export default {
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+}
 </style>

@@ -40,33 +40,34 @@
                <!--  Nossa historia -->
 
             <div class="Nossa Historia">
-                <h1> Nossa historia</h1>
-
+                <h2> Nossa historia</h2>
+                <p>
                 Com o início da pandemia, em 2020,estamospassndo por um momento muito difícil, mas pode ser amenizado com boa dose de coragem, aliada a uma gestão competente.
                 mesmo com as dificuldades impostas pela crise,
                 Com o início da pandemia, em 2020, muitos setores se viram em meio à crise devido ao isolamento social e lockdown em todos os estados e cidades do Brasil. Sendo assim, os comércios teve de se reinventar e se adaptar ao novo normal proposto, afinal, os clientes mudaram suas prioridades e hábitos de consumo, focando principalmente na esfera da saúde e alimentação.
-                
-                <p>
+                </p>
+
                     <!-- Missão,Visão e valores -->
 
-                <p>
                 <h1> Misão</h1>
-                “Consolidar a nossa atuação como entidade de referência no nosso segmento, sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a participação da sociedade organizada”.
                 <p>
+                “Consolidar a nossa atuação como entidade de referência no nosso segmento, sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a participação da sociedade organizada”.
+                </p>
 
                 <h1> Visão</h1>
+                <p>
                 “Consolidar a nossa atuação como entidade de referência no nosso segmento, 
                 sendo também reconhecida em âmbito internacional, tornando-se autossuficiente com a participação da sociedade organizada”.
-            
-                <p>
+                </p>
+
+                
                 <h1> Valore</h1>
-                Atender seus assistidos com qualidade, eficácia e eficiência promovendo e minimizando sua condição de vulnerabilidade social.
                 <p>
+                Atender seus assistidos com qualidade, eficácia e eficiência promovendo e minimizando sua condição de vulnerabilidade social.
+                </p>
 
                     <!--O que nossa empresa oferece-->
-                <p>
                 <h1>O que nossa empresa oferece</h1>
-                <p>
            </div>
 
        
