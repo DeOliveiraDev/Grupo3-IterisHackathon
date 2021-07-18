@@ -32,11 +32,11 @@
                                 </div>
                                 <div>
                                     <label for="address">Endereço</label>
-                                    <input name="address" v-model="address" placeholder="address">
+                                    <input name="address" v-model="address" placeholder="Endereço">
                                 </div>
                                 <div>
                                     <label for="email">Email</label>
-                                    <input name="email" v-model="email" placeholder="address">
+                                    <input name="email" v-model="email" placeholder="Email">
                                 </div>
                                  <div>
                                     <label for="phone">Telefone</label>
