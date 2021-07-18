@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import EmpresasArea from '../views/EmpresasArea.vue'
 import OngArea from '../views/OngArea.vue'
+import AreaFAQ from '../views/AreaFAQ.vue'
 
 Vue.use(VueRouter)
 
@@ -14,6 +15,11 @@ const routes = [{
         path: '/OngArea',
         name: 'OngArea',
         component: OngArea
+    },
+    {
+        path: '/AreaFAQ',
+        name: 'AreaFAQ',
+        component: AreaFAQ
     },
 ]
 

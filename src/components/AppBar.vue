@@ -33,12 +33,14 @@
           </v-list-item>
 
           <!-- SIDEBAR ITEM 2 -->
-          <v-list-item>
-            <v-list-item-icon>
-              <v-icon>mdi-frequently-asked-questions</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>FAQ</v-list-item-title>
-          </v-list-item>
+          <router-link to="/FAQ">
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-frequently-asked-questions</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title>FAQ</v-list-item-title>
+            </v-list-item>
+          </router-link>
           
           <!-- SIDEBAR ITEM 3 -->
           <v-list-item>
