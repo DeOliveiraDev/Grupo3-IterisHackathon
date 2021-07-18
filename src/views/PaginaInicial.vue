@@ -13,9 +13,11 @@
     </div>
     <!-- login -->
     <div class="container">
-        <div class="login">
-        <input type="text" placeholder="Email" />
-        <input type="password" placeholder="Senha" />
+        <div class="linha">
+            <div class="login">
+                <input type="text" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+            </div>
         </div>
         
         <!-- BOTÃO LOGIN -->
@@ -40,9 +42,9 @@
       <!--  Nossa historia -->
 
       <div class="Nossa Historia">
-        <h1>Nossa historia</h1>
+        <h2>Nossa historia</h2>
 
-        <p>
+        <p class="linha">
           Desde o início da pandemia, em 2020, estamos passando por um momento
           muito difícil. Acreditamos que as dificuldades podem ser amenizadas
           com solidariedade, união, trabalho, boa dose de coragem, aliada a uma
@@ -57,13 +59,13 @@
         <!-- Missão,Visão e valores -->
 
         <h2>Missão</h2>
-        <p>
+        <p class="linha">
           Realizando conexões, queremos combater a fome, o desemprego e outros
           problemas potencializados pela pandemia.
         </p>
 
         <h2>Visão</h2>
-        <p>
+        <p class="linha">
           “Consolidar a nossa atuação como entidade de referência no nosso
           segmento, sendo também reconhecida em âmbito internacional,
           tornando-se autossuficiente com a participação da sociedade
@@ -71,7 +73,7 @@
         </p>
 
         <h2>Valores</h2>
-        <p>
+        <p class="linha">
           Atender as pessoas, profissionais, empresas e ong's com qualidade,
           eficácia e eficiência de forma a promover seus serviços e ações,
           minimizando vulnerabilidades sociais.
@@ -81,7 +83,7 @@
 
         <h2>O que nossa empresa oferece</h2>
 
-        <p>
+        <p class="linha">
           Oferecemos uma plataforma que facilita a conexão entre os setores ja
           citados, poupando tempo e recursos.
         </p>
@@ -98,6 +100,10 @@ export default {
 
 
 <style scoped>
+.linha {
+    display: flex;
+    justify-content: center;
+}
 .login {
   display: flex;
   flex-direction: column;
@@ -107,7 +113,6 @@ input[type="text"] {
     border-radius: 15px;
     margin: 3px;
     max-width: 200px;
-    margin-left: 68px;
     padding: 3px;
 }
 input[type="password"] {
@@ -115,11 +120,11 @@ input[type="password"] {
     border-radius: 15px;
     margin: 3px;
     max-width: 200px;
-    margin-left: 68px;
     padding: 3px;
 }
 .logo {
-    margin-left: 86px;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
 a {
@@ -129,4 +134,14 @@ a {
     margin-top: 17px;
     font-size: 18px;
 }
+.linha{ 
+  margin:0 10px;
+
+}
+h2 {
+    text-align: center;
+}
+
+
+
 </style>
