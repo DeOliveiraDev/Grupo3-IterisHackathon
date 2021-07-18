@@ -18,7 +18,7 @@
         </v-expansion-panel-header>
        
         <v-expansion-panel-content>
-          Mais Dúvidas? Envie-nos um email. connectubuntu@connectubuntu.com.br
+          Mais Dúvidas? Envie-nos um email: connectubuntu@connectubuntu.com.br
           
         </v-expansion-panel-content>
      
