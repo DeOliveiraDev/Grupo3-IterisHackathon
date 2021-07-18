@@ -1,9 +1,11 @@
 <template>
   <v-card>
     <div class="d-flex">
-      <v-btn class="mx-3 mt-2" fab dark small color="teal lighten-1">
-        <v-icon> mdi-arrow-left </v-icon>
-      </v-btn>
+      <router-link to="/MemberMenu">
+        <v-btn class="mx-3 mt-2" fab dark small color="teal lighten-1">
+          <v-icon> mdi-arrow-left </v-icon>
+        </v-btn>
+      </router-link>
       <v-card-title>FAQ</v-card-title>
     </div>
     <v-expansion-panels>
