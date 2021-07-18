@@ -1,5 +1,13 @@
 <template>
   <v-card max-width="400" class="mx-auto">
+    <div class="d-flex">
+      <router-link to="/MemberMenu">
+        <v-btn class="mx-3 mt-2" fab dark small color="teal lighten-1">
+          <v-icon> mdi-arrow-left </v-icon>
+        </v-btn>
+      </router-link>
+      <v-card-title>Lista de ONG's</v-card-title>
+    </div>
     <v-container>
       <v-row dense>
         <v-col v-for="(ongs, i) in ongs" :key="i" cols="12">
@@ -16,17 +24,22 @@
                 <v-row justify="center">
                   <v-expansion-panels inset>
                     <v-expansion-panel>
-                      <v-expansion-panel-header color="teal lighten-1" dark class="">MAIS INFORMAÇÕES</v-expansion-panel-header>
+                      <v-expansion-panel-header
+                        color="teal lighten-1"
+                        dark
+                        class=""
+                        >MAIS INFORMAÇÕES</v-expansion-panel-header
+                      >
                       <v-expansion-panel-content>
-                        <br>
+                        <br />
                         <strong> Descrição: </strong>
-                        {{ongs.descricao}}
+                        {{ ongs.descricao }}
                         <v-divider></v-divider>
                         <strong> Nome: </strong>
-                        {{ongs.nome}} <br>
+                        {{ ongs.nome }} <br />
                         <v-divider></v-divider>
                         <strong> Endereço: </strong>
-                        {{ongs.endereco}} <br>
+                        {{ ongs.endereco }} <br />
                         <v-divider></v-divider>
                         <strong> WebSite: </strong>
                         <v-btn class="ma-2" outlined color="teal lighten-1">
@@ -65,7 +78,7 @@ export default {
 </script>
 
 <style scoped>
- a {
-   text-decoration: none;
- }
+a {
+  text-decoration: none;
+}
 </style>
