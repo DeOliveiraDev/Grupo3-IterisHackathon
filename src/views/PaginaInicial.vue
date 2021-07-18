@@ -135,11 +135,14 @@ a {
     font-size: 18px;
 }
 .linha{ 
-  margin:0 10px;
+  margin:0 25px;
+  text-align: justify;
 
 }
 h2 {
     text-align: center;
+    background-color: #26A69A;
+    color: white;
 }
 
 
