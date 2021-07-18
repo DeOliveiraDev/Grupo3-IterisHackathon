@@ -2,7 +2,7 @@
     <v-card max-width="400" class="mx-auto">
         <v-container>
             <v-row dense>
-                <v-col v-for="(ongscadastro, i) in ongscadastro" :key="i" cols="12">
+                <v-col cols="12">
                     <v-card color="white" dark>
                         <div id="app">
                             <form @submit.prevent="login">
@@ -32,15 +32,15 @@
                                 </div>
                                 <div>
                                     <label for="address">Endereço</label>
-                                    <input name="address" v-model="address" placeholder="address">
+                                    <input name="address" v-model="address" placeholder="Endereço">
                                 </div>
                                 <div>
                                     <label for="email">Email</label>
-                                    <input name="email" v-model="email" placeholder="address">
+                                    <input name="email" v-model="email" placeholder="Email">
                                 </div>
                                  <div>
                                     <label for="phone">Telefone</label>
-                                    <input name="phone" v-model="phone" placeholder="telefone">
+                                    <input name="phone" v-model="phone" placeholder="Telefone">
                                 </div>
                                 <input type="submit" value="register">
                             </form>

@@ -53,7 +53,7 @@
           atividades, além de surgirem novas parcerias. Dentre esses setores
           temos empresas,Ong's e profissionais da saúde, arte cultura e outras
           áreas. Para contribuir melhor desenvolvimento desse cenário surge a
-          Connect, que visa conctar artista, profissionais de varias áreas,
+          Connect, que visa conectar artistas, profissionais de varias áreas,
           ong's e empresas.
         </p>
         <!-- Missão,Visão e valores -->
