@@ -13,9 +13,11 @@
     </div>
     <!-- login -->
     <div class="container">
-        <div class="login">
-        <input type="text" placeholder="Email" />
-        <input type="password" placeholder="Senha" />
+        <div class="linha">
+            <div class="login">
+                <input type="text" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+            </div>
         </div>
         
         <!-- BOTÃO LOGIN -->
@@ -98,6 +100,10 @@ export default {
 
 
 <style scoped>
+.linha {
+    display: flex;
+    justify-content: center;
+}
 .login {
   display: flex;
   flex-direction: column;
@@ -107,7 +113,6 @@ input[type="text"] {
     border-radius: 15px;
     margin: 3px;
     max-width: 200px;
-    margin-left: 68px;
     padding: 3px;
 }
 input[type="password"] {
@@ -115,11 +120,11 @@ input[type="password"] {
     border-radius: 15px;
     margin: 3px;
     max-width: 200px;
-    margin-left: 68px;
     padding: 3px;
 }
 .logo {
-    margin-left: 86px;
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
 a {
