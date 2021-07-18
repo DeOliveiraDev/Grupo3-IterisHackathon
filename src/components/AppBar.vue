@@ -3,7 +3,7 @@
     <!-- BARRA DE MENU -->
     <v-app-bar color="dark" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title>Conectamos!</v-toolbar-title>
+      <v-toolbar-title>Connect Ubuntu</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
 

@@ -43,6 +43,28 @@
         <v-spacer></v-spacer>
       </v-card-actions>
     </v-card>
+
+    <!-- CARD LISTA DE PROFISSIONAIS -->
+    <v-card class="mx-auto mt-3" max-width="344">
+      <v-img
+        src="https://images.pexels.com/photos/2479312/pexels-photo-2479312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        height="200px"
+      ></v-img>
+
+      <v-card-title> Profissionais Cultura <br> e Saúde/Bem estar </v-card-title>
+
+      <v-card-subtitle>
+        Profissionais de Cultura e Saúde/Bem estar que precisam de trabalhos 
+      </v-card-subtitle>
+
+      <v-card-actions>
+        <router-link to="ProfissionaisArea">
+          <v-btn color="teal lighten-1" block> VER MAIS </v-btn>
+        </router-link>
+
+        <v-spacer></v-spacer>
+      </v-card-actions>
+    </v-card>
   </v-card>
 </template>
 

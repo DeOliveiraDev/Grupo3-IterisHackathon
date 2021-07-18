@@ -6,6 +6,7 @@ import MemberMenu from '../views/MemberMenu.vue'
 import EmpresasArea from '../views/EmpresasArea.vue'
 import OngArea from '../views/OngArea.vue'
 import AreaFAQ from '../views/AreaFAQ.vue'
+import ProfissionaisArea from '../views/ProfissionaisArea.vue'
 
 
 Vue.use(VueRouter)
@@ -39,6 +40,11 @@ const routes = [{
         path: '/EmpresasArea',
         name: 'EmpresasArea',
         component: EmpresasArea
+    },
+    {
+        path: '/ProfissionaisArea',
+        name: 'ProfissionaisArea',
+        component: ProfissionaisArea
     },
 ]
 
