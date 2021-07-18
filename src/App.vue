@@ -1,23 +1,28 @@
 <template>
   <v-app>
-
-    <AppBar/>
+  <Login/>
+  
+    
     <v-main>
-      <EmpresasArea/>
-    </v-main>
+      <PaginaInicial/>
+          </v-main>
   </v-app>
 </template>
 
 <script>
-import AppBar from './components/AppBar.vue';
-import EmpresasArea from './components/EmpresasArea.vue';
+import Login from './components/Login';
+import PaginaInicial from './components/PaginaInicial';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
-    AppBar,
-    EmpresasArea
+    PaginaInicial,
+    Login,
+    
+    
+
+    
   },
 
   data: () => ({
