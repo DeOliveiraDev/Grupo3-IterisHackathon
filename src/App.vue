@@ -1,28 +1,25 @@
 <template>
   <v-app>
-  <Login/>
+    <AppBar/>
   
     
     <v-main>
-      <PaginaInicial/>
-          </v-main>
+      <router-view/>
+    </v-main>
+    <AppFooter/>
   </v-app>
 </template>
 
 <script>
-import Login from './components/Login';
-import PaginaInicial from './components/PaginaInicial';
+import AppBar from './components/AppBar.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   name: "App",
 
   components: {
-    PaginaInicial,
-    Login,
-    
-    
-
-    
+    AppBar,
+    AppFooter,
   },
 
   data: () => ({
