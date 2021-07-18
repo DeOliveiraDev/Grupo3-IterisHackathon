@@ -1,55 +1,57 @@
 <template>
-  <v-card
-    class="mx-auto"
-    max-width="344"
-  >
-    <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-      height="200px"
-    ></v-img>
+  <v-card class="mx-auto" max-width="344" color="transparent">
+    <!-- CARD LISTA DE EMPRESAS -->
+    <v-card class="mx-auto mt-1" max-width="344">
+      <v-img
+        src="https://cdn-sites-images.46graus.com/files/photos/7a524ab2/0ad1ded0-ff07-40a0-8269-b57cd1f174b6/aerial-android-wallpaper-architectural-design-373912-1024x682.jpg"
+        height="200px"
+      ></v-img>
 
-    <v-card-title>
-      Top western road trips
-    </v-card-title>
+      <v-card-title> Empresas </v-card-title>
 
-    <v-card-subtitle>
-      1,000 miles of wonder
-    </v-card-subtitle>
+      <v-card-subtitle>
+        Empresas parceiras que estão dispostas a contribuir
+      </v-card-subtitle>
 
-    <v-card-actions>
-      <v-btn
-        color="orange lighten-2"
-        text
-      >
-        Explore
-      </v-btn>
+      <v-card-actions>
+        <router-link to="EmpresasArea">
+          <v-btn color="teal lighten-1" block> VER MAIS </v-btn>
+        </router-link>
 
-      <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+      </v-card-actions>
+    </v-card>
 
-      <v-btn
-        icon
-        @click="show = !show"
-      >
-        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
-      </v-btn>
-    </v-card-actions>
+    <v-card class="mx-auto mt-3" max-width="344">
+      <v-img
+        src="https://dtpr0iglcwflm.cloudfront.net/profissoes/wp-content/uploads/2018/10/trabalho-voluntario-no-cv-scaled-1600x900.jpg"
+        height="200px"
+      ></v-img>
 
-    <v-expand-transition>
-      <div v-show="show">
-        <v-divider></v-divider>
+      <v-card-title> ONG's </v-card-title>
 
-        <v-card-text>
-          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
-        </v-card-text>
-      </div>
-    </v-expand-transition>
+      <v-card-subtitle>
+        ONG's que precisam de apoio para ajudar ainda mais
+      </v-card-subtitle>
+
+      <v-card-actions>
+        <router-link to="OngArea">
+          <v-btn color="teal lighten-1" block> VER MAIS </v-btn>
+        </router-link>
+
+        <v-spacer></v-spacer>
+      </v-card-actions>
+    </v-card>
   </v-card>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      show: false,
-    }),
-  }
+export default {
+  data: () => ({
+    show: false,
+  }),
+};
 </script>
+
+<style scoped>
+</style>
