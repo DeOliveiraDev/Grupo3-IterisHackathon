@@ -2,7 +2,7 @@
     <v-card max-width="400" class="mx-auto">
         <v-container>
             <v-row dense>
-                <v-col v-for="(profissionaiscadastro, i) in profissionaiscadastro" :key="i" cols="12">
+                <v-col cols="12">
                     <v-card color="white" dark>
                         <div id="app">
                             <form @submit.prevent="login">
