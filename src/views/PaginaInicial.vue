@@ -145,6 +145,4 @@ h2 {
     color: white;
 }
 
-
-
 </style>

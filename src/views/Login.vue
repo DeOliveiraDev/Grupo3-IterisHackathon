@@ -4,10 +4,10 @@
     <div classe="login">
         <h1>Login</h1>
         
-        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Email" required>
         <br>
         
-        <input type="password" placeholder="Senha">
+        <input type="password" placeholder="Senha" required>
         <br>
         
         <div classe="btn-login">
