@@ -13,7 +13,6 @@
 <script>
 export default {
   data: () => ({
-    email: "",
     emailRules: [
       (v) => !!v || "E-mail is required",
       (v) => /.+@.+/.test(v) || "E-mail must be valid",
